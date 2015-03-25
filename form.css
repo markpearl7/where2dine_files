@@ -1,0 +1,192 @@
+body  { 
+	font:12px verdana;	
+} 
+hr {
+	margin-top: 13px;
+	margin-bottom: 10px;
+	padding: 0;
+	border:none;
+	border-bottom: 1px dotted #AAA;
+}
+
+.hidden {visibility:hidden; display:none !important;}
+
+.error {
+	border:1px solid #FF0000;
+	margin:15px; /* era 15 */
+	padding:0px;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	text-align:center;	
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;		
+	background: #FFFFFF;
+}
+
+.error p {
+	font:12px/18px verdana;	
+	white-space:normal;
+}
+
+.errormsg {	
+	font:bold 16px/20px verdana;	
+	color:#f00;
+}
+
+.selector {
+  min-height:500px;
+  height:auto !important;
+  height:500px;
+}
+
+/*----- styles for templates begin -----*/  
+.tdborder {      
+  height:9px;
+}
+
+.tdmain {
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:20px;   
+  padding-bottom:20px;   
+}
+
+.tdheader{padding:0px 0px 2px 15px;height:40px;}
+
+.tdimage { 
+  /* not used anymore, IE bug */
+  vertical-align: middle;  
+}
+
+.tdimagesus { 
+  vertical-align: bottom
+}
+
+.tdimagejos { 
+  vertical-align: top
+}
+
+/*----- styles for templates end -------*/  
+
+/* --------------------- TOOLTIP BEGINS ----------------------*/
+#tt {position:absolute; display:block; background:url(/img/tt_left.gif) top left no-repeat}
+#tttop {display:block; height:5px; margin-left:5px; background:url(/img/tt_top.gif) top right no-repeat; overflow:hidden}
+#ttcont {display:block; padding:2px 12px 3px 7px; margin-left:5px; background:#666; color:#FFF}
+#ttbot {display:block; height:5px; margin-left:5px; background:url(/img/tt_bottom.gif) top right no-repeat; overflow:hidden}
+/* --------------------- TOOLTIP ENDS ----------------------*/
+
+
+.columntable {
+  width:100%; 
+  border-top:3px solid #CDCDCD;
+  padding-top:10px;
+  min-width: 250px; /* added with form rules */
+  }
+
+
+.errorval {
+color:#f00;
+}
+/* payment processing ends */
+
+.errorval {display:none !important; } /*pt mesajele de eroare */
+.sub_info{color:#808080 ;font-size:10px;}
+
+/* language dropdown */
+.langs
+{
+	float:right;
+	margin-left:9px;
+	position:relative;
+	width:47px;
+}
+.langs .selected
+{
+	background-image:url(/images3/language_selected.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	height:19px;
+	padding-left:6px;
+	padding-top:4px;
+	text-align:left;
+	width:41px;
+}
+.langs .other
+{
+	position:absolute;
+	top:23px;
+	display:none;
+	width:47px;
+	z-index:100;
+}
+.langs .lang
+{
+	background-color:white;
+	background-position:6px center;
+	background-repeat:no-repeat;
+	border:solid 1px #dbdbdb;
+	border-top-width:0px;
+	color:#515151;
+	display:block;
+	font:9px arial;
+	height:19px;
+	line-height:19px;
+	padding-left:28px;
+	padding-top:4px;
+	width:17px;
+}
+.langs a.lang:hover
+{
+	background-color:#e8e8e8!important;
+	font-weight:bold;
+}
+.maintenanceBox {
+border: 1px solid #bbb !important;
+}
+.freeFormsTemplatesH1 {line-height: 30px;font-size: 24px !important;font-weight: inherit;margin-top: 0px;}
+.label-hidden {visibility:hidden;}
+.label-removed {visibility:hidden;display:none !important;}
+.stretch-width {width:100% !important;}
+.hiddensignature { display:none; }
+.with-formula { opacity:0.6;filter:alpha(opacity=60); outline:none;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none; }
+.no-padding {padding:0px !important;}
+.fright {float:right !important;}
+.fleft {float:left !important;}
+.smleft {margin-left:20px !important;}
+.smtop {margin-top:20px !important;}
+.nmleft {margin-left:10px;}
+.without-form-header #form-summary {}
+
+/* mail-include-start */
+
+.td {display:block;float:left; }
+.tr {display:block; clear:both; }
+.th {display:block; float:left; }
+.thead {display:bloch; clear:both;}
+.table {display:block;width:100%; }
+.table-row {display:table-row;}
+.table-cell {display:table-cell;}
+.clear {clear:both;}
+.vhidden {visibility:hidden !important; }
+.hidden {visibility:hidden; display:none !important;}
+.is-mobile .small-field { width:18%;padding-right:16%;}
+.hidden_instruction {display:none;}
+.dblock {display:block;}
+
+span.customRadioButton{
+background: url(http://www.123contactform.com/images3/csscheckbox_9fef9470c286c230efe2515b6887ff86.png) no-repeat;
+width:50px;
+height:50px;
+display:inline-block;
+float:left;
+}
+span.checkboxSeparator{
+display: table;
+height: 3px;
+width: 100%;
+}
+.customRadioImageChecked{background-position:0px -50px !important;}
+.paginationplaceholder{display:none;}
+
+.fieldcontainer .map_canvas img{ max-width:none!important; }
